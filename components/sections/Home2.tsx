@@ -1,5 +1,6 @@
 
 import Link from 'next/link'
+import Image from 'next/image';
 import Marquee from 'react-fast-marquee'
 
 export default function Home2() {
@@ -13,10 +14,17 @@ export default function Home2() {
 							<div className="row align-items-end py-60">
 								<div className="col-lg-5 ps-lg-5 text-lg-start text-center">
 									<div className="position-relative mb-lg-0 mb-5">
-										<img src="assets/imgs/home-page-2/hero-1/profile.jpeg" alt="zelio" />
-										<div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
-											<img src="assets/imgs/home-page-2/hero-1/icon.svg" alt="zelio" />
-										</div>
+										<img src="assets/imgs/home-page-2/hero-1/profile.png" alt="updavo" />
+										{/* <div
+										className="w-72 h-100 bg-cover bg-center"
+										style={{
+											backgroundImage: "url('/assets/imgs/home-page-2/hero-1/profile.jpeg')",
+											clipPath: 'polygon(25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%, 0% 25%)',
+										}}
+										></div> */}
+										{/* <div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
+											<img src="assets/imgs/logos/icono2.png" alt="updavo" />
+										</div> */}
 									</div>
 								</div>
 								<div className="col-lg-6 mx-lg-auto col-md-12">
@@ -44,12 +52,12 @@ export default function Home2() {
 														</li>
 														<li className="carouselTicker__item">
 															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
+																<img src="assets/imgs/home-page-2/hero-1/icon-12.svg" alt="brand"  width={40}/>
 															</Link>
 														</li>
 														<li className="carouselTicker__item">
 															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
+																<img src="assets/imgs/home-page-2/hero-1/icon-10.svg" alt="brand" width={50}/>
 															</Link>
 														</li>
 														<li className="carouselTicker__item">

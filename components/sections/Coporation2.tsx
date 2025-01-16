@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Marquee from "react-fast-marquee";
+import GitJournaling from '../elements/GitJournaling'
 
 export default function Coporation2() {
 	return (
@@ -122,7 +123,7 @@ export default function Coporation2() {
 												<div className="circle-1 position-relative z-0">
 													<div className="circle-2 position-absolute top-50 start-50 translate-middle z-1">
 														<div className="position-absolute top-50 start-50 translate-middle z-2">
-															<img className="w-100 h-100 rounded-circle" src="assets/imgs/coporation/avatar.png" alt="zelio" />
+															<img className="w-100 h-100 rounded-circle" src="assets/imgs/logos/icono2.png" alt="zelio" />
 															<svg className="text-primary-2 position-absolute bottom-0 end-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 5 6" fill="none">
 																<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53" />
 															</svg>
@@ -131,17 +132,13 @@ export default function Coporation2() {
 												</div>
 											</div>
 											<div className="d-flex flex-column gap-2">
-												<Link href="#">
-													<i className="ri-skype-fill" />
-													<span className="text-300">[skype] <span className="text-secondary-2">james.dev</span></span>
+												<Link href="https://linkedin.com/in/updavo" target='_blank'>
+													<i className="ri-linkedin-fill" />
+													<span className="text-300"> [linkedin] <span className="text-secondary-2">updavo</span></span>
 												</Link>
-												<Link href="#">
-													<i className="ri-phone-fill" />
-													<span className="text-300">[phone] <span className="text-secondary-2">+1-234-567-8901</span></span>
-												</Link>
-												<Link href="#">
+												<Link href="mailto:updavo@gmail.com" target='_blank'>
 													<i className="ri-mail-fill" />
-													<span className="text-300">[email] <span className="text-secondary-2">contact@james.dev</span></span>
+													<span className="text-300"> [email] <span className="text-secondary-2">updavo@gmail.com</span></span>
 												</Link>
 											</div>
 										</div>
@@ -172,41 +169,7 @@ export default function Coporation2() {
 									</svg>
 									<span className="text-linear-4 d-flex align-items-center"> Git Journaling </span>
 								</div>
-								<div className="h-100 position-relative">
-									<ul className="ps-3 d-flex flex-column justify-content-around h-100 position-relative">
-										<li className="position-relative z-1">
-											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">15 Jul:</p>
-												<span className="text-dark">Muzzilla-streaming-API-services-for-Python</span>
-											</div>
-										</li>
-										<li className="position-relative z-1">
-											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">30 Jun:</p>
-												<span className="text-dark">ChatHub-Chat-application-VueJs-Mongodb</span>
-											</div>
-										</li>
-										<li className="position-relative z-1">
-											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">26 May:</p>
-												<span className="text-dark">DineEasy-coffee-tea-reservation-system</span>
-											</div>
-										</li>
-										<li className="position-relative z-1">
-											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">17 Apr:</p>
-												<span className="text-dark">FinanceBuddy-Personal-finance-tracker</span>
-											</div>
-										</li>
-										<li className="position-relative z-1">
-											<div className="d-flex align-items-center gap-2">
-												<p className="text-300 text-nowrap">05 Mar:</p>
-												<span className="text-dark">TuneStream-Music-streaming-service-API</span>
-											</div>
-										</li>
-									</ul>
-									<div className="line-left position-absolute border-start z-0" />
-								</div>
+								<GitJournaling username="updavo" />
 								<div className="bg-overlay position-absolute bottom-0 start-0 z-1" />
 							</div>
 						</div>
