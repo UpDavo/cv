@@ -117,6 +117,7 @@ export default function Projects2() {
                             alt={project.title}
                             height={400}
                             style={{
+                              borderRadius:20,
                               objectFit: "cover",
                               objectPosition: "left top",
                               width: "100%",

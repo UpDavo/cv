@@ -20,10 +20,10 @@ export default function Coporation2() {
 											<span className="text-linear-4 d-flex align-items-center"> Cooperation </span>
 										</div>
 										<h3 className="fw-medium">
-											More than +168 <span className="text-300">companies <br /></span> trusted <span className="text-300">worldwide_</span>
+											More than +50 <span className="text-300">companies <br /></span> trusted <span className="text-300">worldwide_</span>
 										</h3>
-										<div className="my-5 border border-1 rounded-2 p-3">
-											{/* Carausel Scroll */}
+										{/* <div className="my-5 border border-1 rounded-2 p-3">
+											
 											<Marquee className="carouselTicker carouselTicker-left position-relative z-1">
 												<ul className="carouselTicker__list m-0">
 													<li className="carouselTicker__item">
@@ -117,7 +117,7 @@ export default function Coporation2() {
 													</li>
 												</ul>
 											</Marquee>
-										</div>
+										</div> */}
 										<div className="d-flex flex-column flex-md-row align-items-center gap-3">
 											<div>
 												<div className="circle-1 position-relative z-0">

@@ -1,7 +1,7 @@
 
 'use client'
 import { useEffect, useState } from "react"
-import AddClassBody from '../elements/AddClassBody'
+// import AddClassBody from '../elements/AddClassBody'
 import BackToTop from '../elements/BackToTop'
 import DataBg from '../elements/DataBg'
 import ImageHoverEffects from '../elements/ImageHoverEffects'
