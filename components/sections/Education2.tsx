@@ -52,14 +52,14 @@ export default function EducationAndAchievements() {
 	  },
 	];
   
-	const listStyle = {
+	const listStyle:any = {
 	  maxHeight: "350px", // Height for 5 elements approximately
 	  overflowY: "auto",
 	  position: "relative",
 	  paddingRight: "15px",
 	};
   
-	const shadowStyle = {
+	const shadowStyle:any = {
 	  position: "absolute",
 	  bottom: "0",
 	  left: "0",
