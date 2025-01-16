@@ -22,7 +22,6 @@ export default function Home() {
 				<Education2 />
 				<Projects2 />
 				<Skills2 />
-				<Blog2 />
 				<Contact2 />
 			</Layout>
 		</>

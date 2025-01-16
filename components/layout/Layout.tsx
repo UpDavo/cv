@@ -60,7 +60,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	return (
 		<>
 			<div id="top" />
-			<AddClassBody />
+			{/* <AddClassBody /> */}
 			<DataBg />
 			<ImageHoverEffects />
 			<Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> 

@@ -908,7 +908,7 @@ img {
   visibility: hidden;
   transform: translateY(0.75rem);
   transition: all 0.2s linear, margin-right 0s;
-  background-color: #6e4ef2;
+  background-color: #62a92b;
 }
 .btn-scroll-top:after {
   position: absolute;
@@ -2854,7 +2854,7 @@ textarea {
 .offCanvas__close-icon button {
   background: transparent;
   border: 0 none;
-  color: #6e4ef2;
+  color: #62a92b;
   cursor: pointer;
   font-size: 20px;
   padding: 0;
@@ -2863,7 +2863,7 @@ textarea {
   max-height: 34px;
 }
 .offCanvas__side-info {
-  border-top: 1px solid #6e4ef2;
+  border-top: 1px solid #62a92b;
   padding-top: 25px;
 }
 .offCanvas__side-info .contact-list h4 {
@@ -3028,10 +3028,10 @@ textarea {
   box-shadow: none;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #6e4ef2;
+  color: #62a92b;
 }
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #6e4ef2;
+  color: #62a92b;
 }
 .navbar.navbar-home-2 {
   position: absolute !important;
@@ -4390,7 +4390,7 @@ textarea.form-control {
   color: #1f1f24;
 }
 ::selection {
-  background: #6e4ef2;
+  background: #62a92b;
   opacity: 0.1;
   color: #1f1f24;
 }
@@ -14329,3 +14329,11 @@ strong {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.nav-item:hover{
+  color: #62a92b !important;
+}
+
+.nav-link:hover{
+  color: #62a92b !important;
+}
