@@ -29,8 +29,55 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Updavo - Portfolio",
-  description: "Updavo - Personal Portfolio",
+  title: "Updavo - Full Stack Software Engineer | Portfolio",
+  description:
+    "Explore the portfolio of Anthony D. Villegas, a Full Stack Software Engineer specializing in Django, React, Angular, and Node.js, delivering innovative and scalable solutions.",
+  openGraph: {
+    title: "Updavo - Full Stack Software Engineer | Portfolio",
+    description:
+      "Explore the portfolio of Anthony D. Villegas, showcasing expertise in Django, React, Angular, Node.js, and cloud technologies.",
+    url: "https://updavo.com",
+    siteName: "Updavo Portfolio",
+    images: [
+      {
+        url: "/assets/imgs/logos/card.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Updavo - Full Stack Software Engineer Portfolio",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@updavo",
+    creator: "@updavo",
+    title: "Updavo - Full Stack Software Engineer | Portfolio",
+    description:
+      "Explore the portfolio of Anthony D. Villegas, a Full Stack Software Engineer specializing in Django, React, Angular, and Node.js.",
+    images: ["/assets/imgs/logos/card.jpg"],
+  },
+  keywords: [
+    "Full Stack Developer",
+    "Software Engineer",
+    "Django",
+    "React",
+    "Angular",
+    "Node.js",
+    "Next.js",
+    "Python",
+    "JavaScript",
+    "Cloud Solutions",
+    "API Integration",
+    "Web Development",
+    "Mobile Development",
+    "SEO",
+    "CRM",
+    "AI Applications",
+  ],
+  authors: [{ name: "Anthony D. Villegas", url: "https://updavo.com" }],
+  robots: "index, follow",
+  viewport: "width=device-width, initial-scale=1.0",
 };
 
 export default function RootLayout({
